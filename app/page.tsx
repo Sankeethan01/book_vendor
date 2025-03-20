@@ -25,7 +25,7 @@ export default function HomePage() {
           isScrolled ? "bg-gray-900" : "bg-transparent"
         } text-white`}
       >
-        <nav className="container mx-auto flex items-center justify-between py-4 px-6">
+        <nav className="container mx-auto flex flex-wrap items-center justify-between py-4 px-4 md:px-6">
           <div className="font-bold text-xl">
             <Link href="/">Name & Logo</Link>
           </div>
@@ -48,7 +48,7 @@ export default function HomePage() {
         </div>
 
         <div className="text-center max-w-3xl mx-auto px-6">
-          <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight">
+          <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight">
           Find & Book Spaces, Vendors, and Retail Essentials
           </h1>
           <p className="text-lg md:text-xl text-white mt-4">
@@ -296,7 +296,7 @@ export default function HomePage() {
       {/* Card 1 */}
       <div className="bg-white shadow-lg rounded-lg overflow-hidden">
         <div className="relative">
-          <img src="/assets/space.jpg" alt="Sketching at The Met Museum" className="w-full h-64 object-cover" />
+          <img src="/assets/book.jpg" alt="Sketching at The Met Museum" className="w-full h-64 object-cover" />
           <button className="absolute top-3 right-3 bg-white p-2 rounded-full shadow">
             ❤️
           </button>
@@ -311,7 +311,7 @@ export default function HomePage() {
       {/* Card 2 */}
       <div className="bg-white shadow-lg rounded-lg overflow-hidden">
         <div className="relative">
-          <img src="/assets/space.jpg" alt="New York graffiti chronicles with Inkhead" className="w-full h-64 object-cover" />
+          <img src="/assets/book.jpg" alt="New York graffiti chronicles with Inkhead" className="w-full h-64 object-cover" />
           <button className="absolute top-3 right-3 bg-white p-2 rounded-full shadow">
             ❤️
           </button>
@@ -326,7 +326,7 @@ export default function HomePage() {
       {/* Card 3 */}
       <div className="bg-white shadow-lg rounded-lg overflow-hidden">
         <div className="relative">
-          <img src="/assets/space.jpg" alt="The History and Craft of Natural Incense" className="w-full h-64 object-cover" />
+          <img src="/assets/book.jpg" alt="The History and Craft of Natural Incense" className="w-full h-64 object-cover" />
           <button className="absolute top-3 right-3 bg-white p-2 rounded-full shadow">
             ❤️
           </button>
@@ -341,7 +341,7 @@ export default function HomePage() {
       {/* Card 4 */}
       <div className="bg-white shadow-lg rounded-lg overflow-hidden">
         <div className="relative">
-          <img src="/assets/space.jpg" alt="Create and savor a wood-fired New York pizza" className="w-full h-64 object-cover" />
+          <img src="/assets/book.jpg" alt="Create and savor a wood-fired New York pizza" className="w-full h-64 object-cover" />
           <button className="absolute top-3 right-3 bg-white p-2 rounded-full shadow">
             ❤️
           </button>
@@ -368,7 +368,7 @@ export default function HomePage() {
       {/* Card 1 */}
       <div className="bg-white shadow-lg rounded-lg overflow-hidden">
         <div className="relative">
-          <img src="/assets/space.jpg" alt="Sketching at The Met Museum" className="w-full h-64 object-cover" />
+          <img src="/assets/rent.jpg" alt="Sketching at The Met Museum" className="w-full h-64 object-cover" />
           <button className="absolute top-3 right-3 bg-white p-2 rounded-full shadow">
             ❤️
           </button>
@@ -383,7 +383,7 @@ export default function HomePage() {
       {/* Card 2 */}
       <div className="bg-white shadow-lg rounded-lg overflow-hidden">
         <div className="relative">
-          <img src="/assets/space.jpg" alt="New York graffiti chronicles with Inkhead" className="w-full h-64 object-cover" />
+          <img src="/assets/rent.jpg" alt="New York graffiti chronicles with Inkhead" className="w-full h-64 object-cover" />
           <button className="absolute top-3 right-3 bg-white p-2 rounded-full shadow">
             ❤️
           </button>
@@ -398,7 +398,7 @@ export default function HomePage() {
       {/* Card 3 */}
       <div className="bg-white shadow-lg rounded-lg overflow-hidden">
         <div className="relative">
-          <img src="/assets/space.jpg" alt="The History and Craft of Natural Incense" className="w-full h-64 object-cover" />
+          <img src="/assets/rent.jpg" alt="The History and Craft of Natural Incense" className="w-full h-64 object-cover" />
           <button className="absolute top-3 right-3 bg-white p-2 rounded-full shadow">
             ❤️
           </button>
@@ -413,7 +413,7 @@ export default function HomePage() {
       {/* Card 4 */}
       <div className="bg-white shadow-lg rounded-lg overflow-hidden">
         <div className="relative">
-          <img src="/assets/space.jpg" alt="Create and savor a wood-fired New York pizza" className="w-full h-64 object-cover" />
+          <img src="/assets/rent.jpg" alt="Create and savor a wood-fired New York pizza" className="w-full h-64 object-cover" />
           <button className="absolute top-3 right-3 bg-white p-2 rounded-full shadow">
             ❤️
           </button>
