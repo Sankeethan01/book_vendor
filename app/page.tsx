@@ -49,10 +49,12 @@ export default function HomePage() {
 
         <div className="text-center max-w-3xl mx-auto px-6">
           <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight">
-            Find perfect home with <br /> real estate property
+          Find & Book Spaces, Vendors, and Retail Essentials
           </h1>
           <p className="text-lg md:text-xl text-white mt-4">
-            Welcome to our real estate website, where we aim to provide you with the best possible experience in buying or selling your property.
+          Welcome to the ultimate marketplace for brands to book spaces for activations, 
+          pop-ups, and events.Easily connect with top service vendors and rent 
+          retail fixtures, displays, and event equipment – all in one place.
           </p>
         </div>
 
