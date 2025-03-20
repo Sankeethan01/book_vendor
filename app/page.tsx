@@ -573,7 +573,7 @@ export default function HomePage() {
     {/* Bottom Section */}
     <div className="flex flex-col md:flex-row items-center justify-between border-t border-gray-700 mt-10 pt-6 text-sm">
       {/* Copyright */}
-      <p>© 2025 BoomPop, Inc.</p>
+      <p>© 2025 BoomPop, Inc. email- sankeethantharmathayalan@gmail.com</p>
 
       {/* Social Media Icons */}
       <div className="flex space-x-4 mt-4 md:mt-0">
